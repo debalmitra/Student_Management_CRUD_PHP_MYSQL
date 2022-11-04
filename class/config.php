@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Calcutta');
-$link = mysqli_connect("localhost", "root", "","technoms_projects");
+$link = mysqli_connect("localhost", "root", "","your_DB_name");
 if ($link->connect_error) {
     die("Connection failed: " . $link->connect_error);
 }
